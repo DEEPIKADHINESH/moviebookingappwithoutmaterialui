@@ -1,0 +1,55 @@
+.upcoming-movies{
+    background-color: #ff9999;
+    padding: 8px;
+    text-align: center;
+    font-size: 1rem;
+    width: 100%;
+}
+.moviepixel{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    overflow-x: scroll;
+}
+.imagepixel{
+    height: 250px;
+    width: 250px;
+    padding: 10px;
+    cursor: pointer;
+}
+.split-page{
+    display: flex;
+    overflow-x: scroll;
+    flex-direction: row;
+    width:100%;
+    
+}
+.flex-container{
+    width: 76%;
+    display: flex;
+    height:100px;
+    flex-direction: row;
+    cursor: pointer;
+}
+.released-pixel{
+    padding:5px;
+}
+
+.left{
+    width:24%;
+    padding:20px;
+    border:1px solid burlywood;
+    background: rgba(255,255,255,0.06);
+}
+.filter{
+    padding-bottom: 10px;
+}
+.split-page>div{
+    margin: 16px;
+}
+input{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    padding:5px;
+}
