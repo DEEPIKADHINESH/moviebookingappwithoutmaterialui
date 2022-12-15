@@ -14,10 +14,10 @@ class Home extends Component{
       genres:[],
       artists:[]
   }
-// movieClickHandler=(movieId)=>{
-//  ReactDOM.render(<Details movieId={movieId}/>,document.getElementById("root"))
+movieClickHandler=(movieId)=>{
+ ReactDOM.render(<Details movieId={movieId}/>,document.getElementById("root"))
      
-// }
+}
 movieNameChangeHandler=(event)=>{
   this.setState({movieName:event.target.value})
 }

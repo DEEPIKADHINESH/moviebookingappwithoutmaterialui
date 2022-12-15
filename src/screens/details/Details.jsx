@@ -7,23 +7,22 @@ import Home from "../../common/home/Home";
 import ReactDOM from "react-dom";
 import YouTube from "react-youtube";
 class Details extends Component{
-    // state={
-    //     movie:{}
-    // }
-    // componentWillMount=()=>{
-    //     let currentState=this.state.movie
-    //     currentState.movie=moviesData.filter((mov)=>{
-    //         return mov.id===this.props.movieId
-    //     })[0]
-    //     console.log(currentState)
-    //     this.setState({movie:currentState})
-    // }
+    state={
+        movie:{}
+    }
+    componentWillMount=()=>{
+        let currentState=this.state.movie
+        currentState.movie=moviesData.filter((mov)=>{
+            return mov.id===this.props.movieId
+        })[0]
+        console.log(currentState)
+        this.setState({movie:currentState})
+    }
     // artistClickHandler=(url)=>{
     //    window.location=url
     // }
-    // backToHome=()=>{
-    //     ReactDOM.render(<Home />, document.getElementById("root"));
-    // }
+   
+    
     render(){
         return(
             <div>
