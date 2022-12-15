@@ -18,9 +18,9 @@ class Details extends Component{
         console.log(currentState)
         this.setState({movie:currentState})
     }
-    // artistClickHandler=(url)=>{
-    //    window.location=url
-    // }
+    artistClickHandler=(url)=>{
+       window.location=url
+    }
    
     
     render(){
