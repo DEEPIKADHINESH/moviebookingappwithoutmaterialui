@@ -22,7 +22,9 @@ class Details extends Component{
        window.location=url
     }
    
-    
+    backToHome=()=>{
+      ReactDOM.render(<Home/>,document.getElementById("root"))
+    }
     render(){
         return(
             <div>
